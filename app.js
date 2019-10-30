@@ -20,7 +20,7 @@ var commentRoutes = require("./routes/comments"),
 
 mongoose
     .connect(
-        "mongodb+srv://ahmed:crouch2014@cluster0-s10xd.mongodb.net/camp", { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
+        "mongodb+srv://ahmed:crouch2014@cluster0-s10xd.mongodb.net/campfinal", { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
     )
     .then(() => {
         console.log("Connected to database!");
